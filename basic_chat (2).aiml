@@ -1,0 +1,20 @@
+<aiml version="0.9.2" encoding="UTF-8">
+    <category>
+        <pattern>RECIPE WITH INGREDIENTS</pattern>
+        <template>
+            Please provide the ingredients you have, and I will suggest recipes for you.
+        </template>
+    </category>
+    <category>
+        <pattern>RECIPE FOR * </pattern>
+        <template>
+            Let me fetch a recipe for <star/>.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW TO COOK * </pattern>
+        <template>
+            Here is a recipe for <star/>. [Add your recipe or link here.]
+        </template>
+    </category>
+    </aiml>
